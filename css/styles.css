@@ -77,9 +77,9 @@ p {
 }
 }
 
-.bg-img1 {
+.bg-mlk {
   /* The image used */
-  background: url(../img/mlk/button.jpg);
+  background: url(/img/MLK/button.jpg);
   min-height: 30vw;
   /* Center and scale the image nicely.. background-size:cover */
   background-position: center;
@@ -88,7 +88,7 @@ p {
   position: relative;
 }
 
-.bg-img2 {
+.bg-Prusix {
   background: url(/img/Prusix/bottle2.jpg);
   min-height: 30vw;
   background-position: center;
@@ -96,7 +96,7 @@ p {
   position: relative;
 }
 
-.bg-img3 {
+.bg-Spidey {
   background: url(/img/Spidey/background.jpg);
   min-height: 30vw;
   background-position: center;
@@ -104,7 +104,7 @@ p {
   position: relative;
 }
 
-.bg-img4 {
+.bg-Clubhaus {
   background: url(/img/Clubhaus/businesscard.jpg);
   min-height: 30vw;
   background-position: center;
@@ -112,7 +112,7 @@ p {
   position: relative;
 }
 
-.bg-img5 {
+.bg-Raygun {
   background: url(/img/Raygun/raygun.jpg);
   min-height: 30vw;
   background-position: center;
@@ -120,7 +120,7 @@ p {
   position: relative;
 }
 
-.bg-img6 {
+.bg-Exsnore {
   background: url(/img/Exsnore/background.jpg);
   min-height: 30vw;
   background-position: center;
