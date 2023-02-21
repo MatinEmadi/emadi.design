@@ -79,7 +79,7 @@ p {
 
 .bg-img1 {
   /* The image used */
-  background: url(img/MLK/button.jpg);
+  background: url(/img/Prusix/bottle2.jpg);
   min-height: 30vw;
   /* Center and scale the image nicely.. background-size:cover */
   background-position: center;
