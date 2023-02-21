@@ -1,0 +1,333 @@
+* {
+  font-family: "Unica77", "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+}
+
+.container {
+  margin: 0px 3vw 0px 3vw;
+}
+
+/* pages */
+.full-img {
+  margin-bottom: 3vw;
+  }
+  
+.bigtitle {
+  font-size: 8vw;
+  font-weight: 300;
+  margin-top: 1.25vw;
+}
+
+.description-container {
+  margin-bottom: 3vw;
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  color: white;
+}
+
+.description-text {
+  max-width: 50vw;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25vw;
+  }  
+
+.paragraph {
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: white;
+}
+
+h2 {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+  line-height: 3vw;
+  font-size: 2vw;
+}
+
+.intro-container {
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+  display: grid;
+  grid-template-columns:  1fr .5fr;
+}
+
+.text-container {
+  margin-right: 10vw;
+  line-height: 3vw;
+}
+
+
+@media screen and (max-width: 800px) {
+.intro-container, p, ul {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+}
+}
+
+.bg-img1 {
+  /* The image used */
+  background: url(/img/mlk/button.png);
+  min-height: 30vw;
+  /* Center and scale the image nicely.. background-size:cover */
+  background-position: center;
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img2 {
+  background: url(/img/Prusix/bottle2.jpg);
+  min-height: 30vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img3 {
+  background: url(/img/Spidey/background.jpg);
+  min-height: 30vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img4 {
+  background: url(/img/Clubhaus/businesscard.jpg);
+  min-height: 30vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img5 {
+  background: url(/img/Raygun/raygun.jpg);
+  min-height: 30vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img6 {
+  background: url(/img/Exsnore/background.jpg);
+  min-height: 30vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* color */
+
+.color-about {
+  color: #ffffff;
+  border-width: 1.5px;
+  border-color: #ffffff;
+}
+
+.color-mlk {
+  color: #FFC627;
+  border-width: 1.5px;
+  border-color: #FFC627;
+}
+
+.color-prusix {
+  color: #e08126;
+  border-width: 1.5px;
+  border-color: #e08126;
+}
+
+.color-spidey {
+  color: #db1111;
+  border-width: 1.5px;
+  border-color: #db1111;
+}
+
+.color-clubhaus {
+  color: #67B0AA;
+  border-width: 1.5px;
+  border-color: #67B0AA;
+}
+
+.color-raygun {
+  color: #18df2c;
+  border-width: 1.5px;
+  border-color: #18df2c;
+}
+
+.color-exsnore {
+  color: #a96fff;
+  border-width: 1.5px;
+  border-color: #a96fff;
+}
+
+.color-soon {
+  color: #2b2b2b;
+  border-width: 1.5px;
+  border-color: #a96fff;
+}
+
+li.Bling {
+  list-style: none;
+  line-height: 3vw;
+  font-size: 2vw;
+}
+
+li.Bling1 {
+  font-weight: 300;
+  list-style: none;
+  line-height: 3vw;
+  font-size: 2vw;
+}
+
+/* nav */
+
+section {
+  margin-top: 100px;
+  line-height: 7vw;
+}
+
+#navbar {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.566) , rgba(0, 0, 0, 0));
+}
+
+#left-nav {
+  float: left;
+  margin-left: 3vw;
+}
+
+#right-nav {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 3vw;
+  gap: 1vw;
+}
+
+a.opacity {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+a.opacity:hover {
+  opacity: 0.5;
+}
+
+/* overlay */
+
+img.name-image {
+  min-height: 100%;
+}
+
+.names a:hover + .name-image {
+  display: block;
+  width: 100%;
+  opacity: .9;
+  transition: 5s ease-in-out;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.name-image {
+  display: none;
+}
+
+.names {
+  margin-left: -40px;
+  list-style: none;
+  font-size: 6vw;
+}
+
+.names a {
+
+  font-weight: 300;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.names a:hover {
+  opacity: 1;
+  color: white;
+}
+
+/* footer */
+
+hr.footer {
+  margin-top: 70px;
+}
+footer {
+  text-align: center;
+}
+
+.footer-grid {
+  margin-top: 1.25vw;
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  column-gap: 1.25vw;
+}
+
+h1.email {
+  font-size: 1vw;
+}
+
+.work, .social {
+  line-height: 2vw;
+  margin-bottom: 3vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.email-link a, .instagram-link a {
+  font-weight: 300;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.email-link a:hover, .instagram-link a:hover {
+  opacity: 0.5;
+}
+
+/* about */
+
+.about-margin {
+  margin-top: 6vw;
+}
+
+a.resume {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  border-bottom: #ffffff 2px solid;
+}
+
+a.resume:hover {
+  opacity: 0.5;
+}
