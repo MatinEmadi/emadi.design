@@ -88,7 +88,7 @@ p {
   position: relative;
 }
 
-.bg-Prusix {
+.bg-prusix {
   background: url(/img/Prusix/bottle2.jpg);
   min-height: 30vw;
   background-position: center;
@@ -96,7 +96,7 @@ p {
   position: relative;
 }
 
-.bg-Spidey {
+.bg-spidey {
   background: url(/img/Spidey/background.jpg);
   min-height: 30vw;
   background-position: center;
@@ -104,7 +104,7 @@ p {
   position: relative;
 }
 
-.bg-Clubhaus {
+.bg-clubhaus {
   background: url(/img/Clubhaus/businesscard.jpg);
   min-height: 30vw;
   background-position: center;
@@ -112,7 +112,7 @@ p {
   position: relative;
 }
 
-.bg-Raygun {
+.bg-raygun {
   background: url(/img/Raygun/raygun.jpg);
   min-height: 30vw;
   background-position: center;
@@ -120,7 +120,7 @@ p {
   position: relative;
 }
 
-.bg-Exsnore {
+.bg-exsnore {
   background: url(/img/Exsnore/background.jpg);
   min-height: 30vw;
   background-position: center;
