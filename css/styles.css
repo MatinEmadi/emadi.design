@@ -79,7 +79,7 @@ p {
 
 .bg-mlk {
   /* The image used */
-  background: url(/img/MLK/button.png);
+  background: url(/img/MLK/button.jpg);
   min-height: 30vw;
   /* Center and scale the image nicely.. background-size:cover */
   background-position: center;
