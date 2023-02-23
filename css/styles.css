@@ -242,22 +242,22 @@ a.opacity:hover {
 
 img.name-image {
   min-height: 100%;
-
+  object-fit: cover;
 }
 
 .names a:hover + .name-image {
-  display: block;
-  width: 100%;
-  opacity: .9;
-  transition: 5s ease-in-out;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+  opacity: 0.9;
 }
 
 .name-image {
-  display: none;
+  display: block;
+  width: 100%;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -10;
+  transition: .5s ease-in-out;
 }
 
 .names {
