@@ -194,10 +194,7 @@ li.Bling1 {
 
 /* nav */
 
-section {
-  margin-top: 5vw;
-  line-height: 7vw;
-}
+
 
 #navbar {
   font-size: 1.5vw;
@@ -240,6 +237,7 @@ a.opacity:hover {
 
 /* overlay */
 
+
 img.name-image {
   min-height: 100%;
   object-fit: cover;
@@ -260,10 +258,15 @@ img.name-image {
   transition: .5s ease-in-out;
 }
 
+section {
+  margin-top: 5vw;
+  line-height: 8vw;
+}
+
 .names {
   margin-left: -40px;
   list-style: none;
-  font-size: 6vw;
+  font-size: 8vw;
 }
 
 .names a {
