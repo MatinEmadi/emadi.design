@@ -240,6 +240,7 @@ a.opacity:hover {
 
 img.name-image {
   min-height: 100%;
+
 }
 
 .names a:hover + .name-image {
