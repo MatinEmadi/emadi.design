@@ -1,5 +1,5 @@
 * {
-  font-family: "Unica77", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
 
@@ -260,18 +260,17 @@ img.name-image {
 
 section {
   margin-top: 5vw;
-  line-height: 8.25vw;
+  line-height: 11vw;
 }
 
 .names {
   margin-left: -40px;
   list-style: none;
-  font-size: 8vw;
+  font-size: 10vw;
+  font-weight: 200;
 }
 
 .names a {
-
-  font-weight: 300;
   transition: opacity 0.25s ease-in-out;
 }
 
