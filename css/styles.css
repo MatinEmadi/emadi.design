@@ -65,6 +65,14 @@ p {
   grid-template-columns:  1fr .5fr;
 }
 
+.about-container {
+  font-size: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+  display: grid;
+  grid-template-columns:  1fr 1fr .5fr;
+}
+
 .text-container {
   margin-right: 10vw;
   line-height: 3vw;
