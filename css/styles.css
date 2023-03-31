@@ -66,12 +66,15 @@ p {
 }
 
 .about-container {
-  font-size: 2vw;
-  margin-top: 2vw;
-  margin-bottom: 3vw;
   display: grid;
-  grid-template-columns:  1fr 1fr .5fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
+
+.about-item {
+  padding: 20px;
+}
+
 
 .text-container {
   margin-right: 10vw;
@@ -137,6 +140,14 @@ p {
   position: relative;
 }
 
+.bg-bmw {
+  background: url(/img/bmw/car-04.jpg);
+  min-height: 30vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 /* color */
 
 .color-about {
@@ -179,6 +190,12 @@ p {
   color: #a96fff;
   border-width: 1.5px;
   border-color: #a96fff;
+}
+
+.color-bmw {
+  color: #3067ff;
+  border-width: 1.5px;
+  border-color: #3067ff;
 }
 
 .color-soon {
