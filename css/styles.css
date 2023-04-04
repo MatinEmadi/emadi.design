@@ -398,21 +398,21 @@ section {
 }
 
 p {
-  line-height: 30px;
+  line-height: 25px;
   font-size: 20px;
 }
 
 li.Bling {
   list-style: none;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 li.Bling1 {
   font-weight: 300;
   list-style: none;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .paragraph {
