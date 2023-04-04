@@ -24,14 +24,10 @@ body {
 }
 
 .description-container {
+  padding-left: 600px;
   margin-bottom: 3vw;
-  display: grid;
-  grid-template-columns: .5fr 1fr;
+  max-width: 80vw;
   color: white;
-}
-
-.description-text {
-  max-width: 50vw;
 }
 
 .two-column {
@@ -41,7 +37,7 @@ body {
   }  
 
 .paragraph {
-  font-size: 1.5vw;
+  font-size: 30px;
   font-weight: 300;
   color: white;
 }
@@ -54,8 +50,8 @@ h2 {
 
 p {
   font-weight: 300;
-  line-height: 3vw;
-  font-size: 2vw;
+  line-height: 50px;
+  font-size: 40px;
 }
 
 .intro-container {
@@ -207,15 +203,15 @@ p {
 
 li.Bling {
   list-style: none;
-  line-height: 3vw;
-  font-size: 2vw;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 li.Bling1 {
   font-weight: 300;
   list-style: none;
-  line-height: 3vw;
-  font-size: 2vw;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 /* nav */
@@ -399,6 +395,30 @@ section {
   font-size: 50px;
   font-weight: 300;
   margin-top: 15px;
+}
+
+p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+li.Bling {
+  list-style: none;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+li.Bling1 {
+  font-weight: 300;
+  list-style: none;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
 }
 
 }
