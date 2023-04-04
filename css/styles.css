@@ -18,9 +18,9 @@ body {
   }
   
 .bigtitle {
-  font-size: 8vw;
+  font-size: 130px;
   font-weight: 300;
-  margin-top: 1.25vw;
+  margin-top: 30px;
 }
 
 .description-container {
@@ -393,5 +393,12 @@ section {
   margin-right: 1rem;
 }
   
+ /* page */
+
+.bigtitle {
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 15px;
+}
 
 }
