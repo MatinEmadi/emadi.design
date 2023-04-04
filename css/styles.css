@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  margin: 0px 3vw 0px 3vw;
+  margin: 0px 4rem 0px 4rem;
 }
 
 /* pages */
@@ -45,6 +45,7 @@ body {
   font-weight: 300;
   color: white;
 }
+
 
 h2 {
   font-size: 1.5vw;
@@ -222,14 +223,12 @@ li.Bling1 {
 
 
 #navbar {
-  font-size: 1.5vw;
-  font-weight: 200;
   z-index: 10;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -238,18 +237,19 @@ li.Bling1 {
 
 #left-nav {
   float: left;
-  margin-left: 3vw;
+  margin-left: 4rem;
 }
 
 #right-nav {
   float: right;
   display: flex;
   align-items: center;
-  margin-right: 3vw;
-  gap: 1vw;
+  margin-right: 4rem;
 }
 
 a.opacity {
+  font-weight: 200;
+  font-size: 30px;
   text-decoration: none;
   color: white;
   opacity: 1;
@@ -284,14 +284,14 @@ img.name-image {
 }
 
 section {
-  margin-top: 5vw;
-  line-height: 11vw;
+  margin-top: 100px;
+  line-height: 140px;
 }
 
 .names {
   margin-left: -40px;
   list-style: none;
-  font-size: 10vw;
+  font-size: 130px;
   font-weight: 200;
 }
 
@@ -362,4 +362,36 @@ a.resume {
 
 a.resume:hover {
   opacity: 0.5;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  /* Styles to apply for screens with a minimum width of 768px */
+
+.container {
+  margin: 0px 2.5rem 0px 2.5rem;
+}
+
+.names {
+  margin-left: -40px;
+  list-style: none;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+section {
+  margin-top: 80px;
+  line-height: 60px;
+}
+
+#left-nav {
+  margin-left: 2.5rem;
+}
+
+#right-nav {
+  margin-right: 2.5rem;
+}
+  
+
 }
