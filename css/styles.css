@@ -51,7 +51,7 @@ h2 {
 p {
   font-weight: 300;
   line-height: 50px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .intro-container {
@@ -65,15 +65,8 @@ p {
 .about-container {
   padding-top: 70px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-
-
-
-.about-item {
-  padding: 20px;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  gap: 30px;
 }
 
 
@@ -205,16 +198,23 @@ p {
   border-color: #a96fff;
 }
 
+p {
+  font-weight: 300;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+
 li.Bling {
   list-style: none;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 50px;
 }
 
 li.Bling1 {
   font-weight: 300;
   list-style: none;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 50px;
 }
 
@@ -431,5 +431,13 @@ li.Bling1 {
   max-width: 80vw;
   color: white;
 }
+
+.about-container {
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
 
 }
