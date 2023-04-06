@@ -349,7 +349,7 @@ h1.email {
 /* about */
 
 .about-margin {
-  margin-top: 4vw;
+  margin-top: 80px;
 }
 
 a.resume {
@@ -396,9 +396,11 @@ section {
  /* page */
 
 .bigtitle {
+  line-height: 60px;
   font-size: 50px;
   font-weight: 300;
-  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 p {
@@ -433,11 +435,16 @@ li.Bling1 {
 }
 
 .about-container {
-  padding-top: 70px;
+  padding-top: 30px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
+
+.about-margin {
+  margin-top: 80px;
+}
+
 
 
 }
